@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('fonts/Roboto-Black.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('fonts/Roboto-Bold.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('fonts/Roboto-Light.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('fonts/Roboto-Medium.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('fonts/Roboto-Regular.ttf') format('truetype'); 
+}
+
+body {
+	background-color: #eaeaea;
+	font-family: 'Roboto-Light';
+	color: #444;
+}
+
+.card {
+	width: 700px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+	border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.inputan  {
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    outline: none;
+    padding: 10px 15px;
+    margin: 8px 0;
+    font-size: 1.5em;
+    box-sizing: border-box;
+}
+
+.btn-sub {
+	height: 50px;
+	width: 150px;
+	background-color: #fff;
+	border: 0px;
+	color: #c30e2e;
+	font-weight: bold;
+	font-size: 1.1em;
+	cursor: pointer;
+}
+
+.listin {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.listin li {
+	padding: 15px;
+	border-bottom: 1px solid #eaeaea;
+	text-align: left;
+	font-size: 1.2em;
+}
+
+.listin li span {
+	float: right;
+}
